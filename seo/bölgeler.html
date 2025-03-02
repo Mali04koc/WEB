@@ -1,0 +1,845 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+   <meta charset="UTF-8">
+   <!-- mobil cihazlarda nasıl gözükeceğini ayarladık , viewport bu işe yarıyor. Genişliği cihaz genişliği yaptık,yakınlaştırma ayarını %100 yaptık-->
+   <meta name="viewport" content="width=device-width , initial-scale=1.0" />
+
+   <!--  FONT AVESOME -->
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"/>
+
+
+    <!--  CSS -->
+   
+    <link rel="stylesheet" href="../assets/css/styles.css">
+
+    <!-- whatsapp -->
+    
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <!-- STYLE SWİTCHER -->
+
+    <input type="radio" name="color" id="color-1"/>
+    <input type="radio" name="color" id="color-2"/>
+    <input type="radio" name="color" id="color-3"/>
+    <input type="radio" name="color" id="color-4"/>
+    <input type="radio" name="color" id="color-5"/>
+    <input type="radio" name="color" id="color-6"/>
+    <input type="radio" name="color" id="color-7"/>
+    <input type="radio" name="color" id="color-8"/>
+    <input type="radio" name="color" id="color-9"/>
+    <input type="radio" name="color" id="color-10"/>
+    <input type="checkbox" id="toggler"/>
+    <input type="checkbox" id="day-night"/>
+
+    <div class="style__switcher">
+        <label for="toggler" class="style__switcher-toggler">
+            <i class="fa-solid fa-gear fa-spin"></i>
+        </label>
+
+        <label for="day-night" class="style__switcher-theme">
+            <i class="fa-solid fa-sun"></i>
+            <i class="fa-solid fa-moon"></i>
+        </label>
+
+        <h3 class="style__switcher-title">Sayfa Rengi</h3>
+
+        <div class="style__switcher-colors">
+            <label for="color-1" class="color-1 color"></label>
+            <label for="color-2" class="color-2 color"></label>
+            <label for="color-3" class="color-3 color"></label>
+            <label for="color-4" class="color-4 color"></label>
+            <label for="color-5" class="color-5 color"></label>
+            <label for="color-6" class="color-6 color"></label>
+            <label for="color-7" class="color-7 color"></label>
+            <label for="color-8" class="color-8 color"></label>
+            <label for="color-9" class="color-9 color"></label>
+            <label for="color-10" class="color-10 color"></label>
+
+        </div>
+    </div>
+      
+    <!-- HEADER   -->
+
+    <header class="header">
+
+    <!-- ÜST TARAFTAKİ NAVİGASYON ÇUBUKLARINI YAPIYORUM-->
+    <nav class="nav container">
+        <a href="index.html" class="nav__logo">KOÇLAR DEKORASYON</a>
+    
+        <!-- Hamburger Menü İkonu -->
+        <div class="nav__menu-icon" id="menuIcon">&#9776;</div>
+    
+        <!-- Navigasyon Listesi -->
+        <ul class="nav__list" id="navList">
+            <li class="nav__item">
+                <a href="../index.html#home" class="nav__link active-link">Anasayfa</a>
+            </li>
+            <li class="nav__item">
+                <a href="../index.html#about" class="nav__link" >Hakkımızda</a>
+            </li>
+            <li class="nav__item">
+                <a href="#../index.html#qualification" class="nav__link">Hizmetlerimiz</a>
+            </li>
+            <li class="nav__item">
+                <a href="../index.html#services" class="nav__link">Neden?</a>
+            </li>
+            <li class="nav__item">
+                <a href="../index.html#works" class="nav__link">Çalışmalarımız</a>
+            </li>
+            <li class="nav__item">
+                <a href="#bolge" class="nav__link">Bölgelerimiz</a>
+            </li>
+            <li class="nav__item">
+                <a href="#contact" class="nav__link">İletişim</a>
+            </li>
+        </ul>
+    </nav>
+    </header>
+
+    
+    
+    <!--  Main -->
+
+    <main class="main">
+
+  
+  <!-- Bölgelerimiz -->
+
+    <section class="services section" id="bolge">
+        <h2 class="section__title title-center">
+            Çalışma Bölgelerimiz
+        </h2>
+        <div class="services__container container grid">
+
+            <div class="services__item">
+
+                <h3 class="bolgeler__title">Adalar</h3>
+                <p class="bolgeler__description">
+                    Adalar Boyacı, Adalar Boya Badana Ustası Vedat Usta 
+                </p>
+
+                <span class="services__no">01</span>
+
+                <div class="home__btns">
+                    <a href="adalar.html" class="btn">Devamı</a>                    
+                  </div>
+            </div>
+
+            <div class="services__item">
+
+                <h3 class="bolgeler__title">Arnavutköy</h3>
+                <p class="bolgeler__description">
+                    Arnavutköy Boyacı, Arnavutköy Boya Badana Ustası Vedat Usta 
+                </p>
+
+                <span class="services__no">02</span>
+
+                <div class="home__btns">
+                    <a href="arnavutköy.html" class="btn">Devamı</a>                    
+                  </div>
+            </div>
+
+            <div class="services__item">
+
+                <h3 class="bolgeler__title">Ataşehir</h3>
+                <p class="bolgeler__description">
+                    Ataşehir Boyacı, Ataşehir Boya Badana Ustası Vedat Usta 
+                </p>
+
+                <span class="services__no">03</span>
+
+                <div class="home__btns">
+                    <a href="ataşehir.html" class="btn">Devamı</a>                    
+                  </div>
+            </div>
+
+            <div class="services__item">
+
+                <h3 class="bolgeler__title">Avcılar</h3>
+                <p class="bolgeler__description">
+                    Avcılar Boyacı, Avcılar Boya Badana Ustası Vedat Usta 
+                </p>
+
+                <span class="services__no">04</span>
+
+                <div class="home__btns">
+                    <a href="avcılar.html" class="btn">Devamı</a>                    
+                  </div>
+            </div>
+
+            <div class="services__item">
+
+                <h3 class="bolgeler__title">Bağcılar</h3>
+                <p class="bolgeler__description">
+                    Bağcılar Boyacı, Bağcılar Boya Badana Ustası Vedat Usta 
+                </p>
+
+                <span class="services__no">05</span>
+
+                <div class="home__btns">
+                    <a href="bağcılar.html" class="btn">Devamı</a>                    
+                  </div>
+            </div>
+
+            <div class="services__item">
+
+                <h3 class="bolgeler__title">Bahçelievler</h3>
+                <p class="bolgeler__description">
+                    Bahçelievler Boyacı, Bahçelievler Boya Badana Ustası Vedat Usta 
+                </p>
+
+                <span class="services__no">06</span>
+
+                <div class="home__btns">
+                    <a href="bahçelievler.html" class="btn">Devamı</a>                    
+                  </div>
+            </div>
+
+            <div class="services__item">
+
+                <h3 class="bolgeler__title">Bakırköy</h3>
+                <p class="bolgeler__description">
+                    Bakırköy Boyacı, Bakırköy Boya Badana Ustası Vedat Usta 
+                </p>
+
+                <span class="services__no">07</span>
+
+                <div class="home__btns">
+                    <a href="bakırköy.html" class="btn">Devamı</a>                    
+                  </div>
+            </div>
+
+            <div class="services__item">
+
+                <h3 class="bolgeler__title">Başakşehir</h3>
+                <p class="bolgeler__description">
+                    Başakşehir Boyacı, Başakşehir Boya Badana Ustası Vedat Usta 
+                </p>
+
+                <span class="services__no">08</span>
+
+                <div class="home__btns">
+                    <a href="başakşehir.html" class="btn">Devamı</a>                    
+                  </div>
+            </div>
+
+            <div class="services__item">
+
+                <h3 class="bolgeler__title">Bayrampaşa</h3>
+                <p class="bolgeler__description">
+                    Bayrampaşa Boyacı, Bayrampaşa Boya Badana Ustası Vedat Usta 
+                </p>
+
+                <span class="services__no">09</span>
+
+                <div class="home__btns">
+                    <a href="bayrampaşa.html" class="btn">Devamı</a>                    
+                  </div>
+            </div>
+
+            <div class="services__item">
+
+                <h3 class="bolgeler__title">Beşiktaş</h3>
+                <p class="bolgeler__description">
+                    Beşiktaş Boyacı, Beşiktaş Boya Badana Ustası Vedat Usta 
+                </p>
+
+                <span class="services__no">10 </span>
+
+                <div class="home__btns">
+                    <a href="beşiktaş.html" class="btn">Devamı</a>                    
+                  </div>
+            </div>
+
+            <div class="services__item">
+
+                <h3 class="bolgeler__title">Beykoz</h3>
+                <p class="bolgeler__description">
+                    Beykoz Boyacı, Beykoz Boya Badana Ustası Vedat Usta 
+                </p>
+
+                <span class="services__no">11</span>
+
+                <div class="home__btns">
+                    <a href="beykoz.html" class="btn">Devamı</a>                    
+                  </div>
+            </div>
+
+            <div class="services__item">
+
+                <h3 class="bolgeler__title">Beylikdüzü</h3>
+                <p class="bolgeler__description">
+                    Beylikdüzü Boyacı, Beylikdüzü Boya Badana Ustası Vedat Usta 
+                </p>
+
+                <span class="services__no">12</span>
+
+                <div class="home__btns">
+                    <a href="beylikdüzü.html" class="btn">Devamı</a>                    
+                  </div>
+            </div>
+
+            <div class="services__item">
+
+                <h3 class="bolgeler__title">Beyoğlu</h3>
+                <p class="bolgeler__description">
+                    Beyoğlu Boyacı, Beyoğlu Boya Badana Ustası Vedat Usta 
+                </p>
+
+                <span class="services__no">13</span>
+
+                <div class="home__btns">
+                    <a href="beyoğlu.html" class="btn">Devamı</a>                    
+                  </div>
+            </div>
+
+            <div class="services__item">
+
+                <h3 class="bolgeler__title">Büyükçekmece</h3>
+                <p class="bolgeler__description">
+                    Büyükçekmece Boyacı, Büyükçekmece Boya Badana Ustası Vedat Usta 
+                </p>
+
+                <span class="services__no">14</span>
+
+                <div class="home__btns">
+                    <a href="büyükçekmece.html" class="btn">Devamı</a>                    
+                  </div>
+            </div>
+
+            <div class="services__item">
+
+                <h3 class="bolgeler__title">Çatalca</h3>
+                <p class="bolgeler__description">
+                    Çatalca Boyacı, Çatalca Boya Badana Ustası Vedat Usta 
+                </p>
+
+                <span class="services__no">15</span>
+
+                <div class="home__btns">
+                    <a href="çatalca.html" class="btn">Devamı</a>                    
+                  </div>
+            </div>
+
+            <div class="services__item">
+
+                <h3 class="bolgeler__title">Çekmeköy</h3>
+                <p class="bolgeler__description">
+                    Çekmeköy Boyacı, Çekmeköy Boya Badana Ustası Vedat Usta 
+                </p>
+
+                <span class="services__no">16</span>
+
+                <div class="home__btns">
+                    <a href="çekmeköy.html" class="btn">Devamı</a>                    
+                  </div>
+            </div>
+
+            <div class="services__item">
+
+                <h3 class="bolgeler__title">Esenler</h3>
+                <p class="bolgeler__description">
+                    Esenler Boyacı, Esenler Boya Badana Ustası Vedat Usta 
+                </p>
+
+                <span class="services__no">17</span>
+
+                <div class="home__btns">
+                    <a href="esenler.html" class="btn">Devamı</a>                    
+                  </div>
+            </div>
+
+            <div class="services__item">
+
+                <h3 class="bolgeler__title">Esenyurt</h3>
+                <p class="bolgeler__description">
+                    Esenyurt Boyacı, Esenyurt Boya Badana Ustası Vedat Usta 
+                </p>
+
+                <span class="services__no">18</span>
+
+                <div class="home__btns">
+                    <a href="esenyurt.html" class="btn">Devamı</a>                    
+                  </div>
+            </div>
+
+            <div class="services__item">
+
+                <h3 class="bolgeler__title">Eyüpsultan</h3>
+                <p class="bolgeler__description">
+                    Eyüpsultan Boyacı, Eyüpsultan Boya Badana Ustası Vedat Usta 
+                </p>
+
+                <span class="services__no">19</span>
+
+                <div class="home__btns">
+                    <a href="eyüpsultan.html" class="btn">Devamı</a>                    
+                  </div>
+            </div>
+
+            <div class="services__item">
+
+                <h3 class="bolgeler__title">Fatih</h3>
+                <p class="bolgeler__description">
+                    Fatih Boyacı, Fatih Boya Badana Ustası Vedat Usta 
+                </p>
+
+                <span class="services__no">20</span>
+
+                <div class="home__btns">
+                    <a href="fatih.html" class="btn">Devamı</a>                    
+                  </div>
+            </div>
+
+            <div class="services__item">
+
+                <h3 class="bolgeler__title">Gaziosmanpaşa</h3>
+                <p class="bolgeler__description">
+                    Gaziosmanpaşa Boyacı, Gaziosmanpaşa Boya Badana Ustası Vedat Usta 
+                </p>
+
+                <span class="services__no">21</span>
+
+                <div class="home__btns">
+                    <a href="gaziosmanpaşa.html" class="btn">Devamı</a>                    
+                  </div>
+            </div>
+
+            <div class="services__item">
+
+                <h3 class="bolgeler__title">Güngören</h3>
+                <p class="bolgeler__description">
+                    Güngören Boyacı, Güngören Boya Badana Ustası Vedat Usta 
+                </p>
+
+                <span class="services__no">22</span>
+
+                <div class="home__btns">
+                    <a href="güngören.html" class="btn">Devamı</a>                    
+                  </div>
+            </div>
+
+            <div class="services__item">
+
+                <h3 class="bolgeler__title">Kadıköy</h3>
+                <p class="bolgeler__description">
+                    Kadıköy Boyacı, Kadıköy Boya Badana Ustası Vedat Usta 
+                </p>
+
+                <span class="services__no">23</span>
+
+                <div class="home__btns">
+                    <a href="kadıköy.html" class="btn">Devamı</a>                    
+                  </div>
+            </div>
+
+            <div class="services__item">
+
+                <h3 class="bolgeler__title">Kağıthane</h3>
+                <p class="bolgeler__description">
+                    Kağıthane Boyacı, Kağıthane Boya Badana Ustası Vedat Usta 
+                </p>
+
+                <span class="services__no">24</span>
+
+                <div class="home__btns">
+                    <a href="kağıthane.html" class="btn">Devamı</a>                    
+                  </div>
+            </div>
+
+            <div class="services__item">
+
+                <h3 class="bolgeler__title">Kartal</h3>
+                <p class="bolgeler__description">
+                    Kartal Boyacı, Kartal Boya Badana Ustası Vedat Usta 
+                </p>
+
+                <span class="services__no">25</span>
+
+                <div class="home__btns">
+                    <a href="kartal.html" class="btn">Devamı</a>                    
+                  </div>
+            </div>
+
+            <div class="services__item">
+
+                <h3 class="bolgeler__title">Küçükçekmece</h3>
+                <p class="bolgeler__description">
+                    Küçükçekmece Boyacı, Küçükçekmece Boya Badana Ustası Vedat Usta 
+                </p>
+
+                <span class="services__no">26</span>
+
+                <div class="home__btns">
+                    <a href="küçükçekmece.html" class="btn">Devamı</a>                    
+                  </div>
+            </div>
+
+            <div class="services__item">
+
+                <h3 class="bolgeler__title">Maltepe</h3>
+                <p class="bolgeler__description">
+                    Maltepe Boyacı, Maltepe Boya Badana Ustası Vedat Usta 
+                </p>
+
+                <span class="services__no">27</span>
+
+                <div class="home__btns">
+                    <a href="maltepe.html" class="btn">Devamı</a>                    
+                  </div>
+            </div>
+
+            <div class="services__item">
+
+                <h3 class="bolgeler__title">Pendik</h3>
+                <p class="bolgeler__description">
+                    Pendik Boyacı, Pendik Boya Badana Ustası Vedat Usta 
+                </p>
+
+                <span class="services__no">28</span>
+
+                <div class="home__btns">
+                    <a href="pendik.html" class="btn">Devamı</a>                    
+                  </div>
+            </div>
+
+            <div class="services__item">
+
+                <h3 class="bolgeler__title">Sancaktepe</h3>
+                <p class="bolgeler__description">
+                    Sancaktepe Boyacı, Sancaktepe Boya Badana Ustası Vedat Usta 
+                </p>
+
+                <span class="services__no">29</span>
+
+                <div class="home__btns">
+                    <a href="sancaktepe.html" class="btn">Devamı</a>                    
+                  </div>
+            </div>
+
+            <div class="services__item">
+
+                <h3 class="bolgeler__title">Sarıyer</h3>
+                <p class="bolgeler__description">
+                    Sarıyer Boyacı, Sarıyer Boya Badana Ustası Vedat Usta 
+                </p>
+
+                <span class="services__no">30</span>
+
+                <div class="home__btns">
+                    <a href="sarıyer.html" class="btn">Devamı</a>                    
+                  </div>
+            </div>
+
+            <div class="services__item">
+
+                <h3 class="bolgeler__title">Silivri</h3>
+                <p class="bolgeler__description">
+                    Silivri Boyacı, Silivri Boya Badana Ustası Vedat Usta 
+                </p>
+
+                <span class="services__no">31</span>
+
+                <div class="home__btns">
+                    <a href="silivri.html" class="btn">Devamı</a>                    
+                  </div>
+            </div>
+
+            <div class="services__item">
+
+                <h3 class="bolgeler__title">Sultanbeyli</h3>
+                <p class="bolgeler__description">
+                    Sultanbeyli Boyacı, Sultanbeyli Boya Badana Ustası Vedat Usta 
+                </p>
+
+                <span class="services__no">32</span>
+
+                <div class="home__btns">
+                    <a href="sultanbeyli.html" class="btn">Devamı</a>                    
+                  </div>
+            </div>
+
+            <div class="services__item">
+
+                <h3 class="bolgeler__title">Sultangazi</h3>
+                <p class="bolgeler__description">
+                    Sultangazi Boyacı, Sultangazi Boya Badana Ustası Vedat Usta 
+                </p>
+
+                <span class="services__no">33</span>
+
+                <div class="home__btns">
+                    <a href="sultangazi.html" class="btn">Devamı</a>                    
+                  </div>
+            </div>
+
+            <div class="services__item">
+
+                <h3 class="bolgeler__title">Şile</h3>
+                <p class="bolgeler__description">
+                    Şile Boyacı, Şile Boya Badana Ustası Vedat Usta 
+                </p>
+
+                <span class="services__no">34</span>
+
+                <div class="home__btns">
+                    <a href="şile.html" class="btn">Devamı</a>                    
+                  </div>
+            </div>
+
+            <div class="services__item">
+
+                <h3 class="bolgeler__title">Şişli</h3>
+                <p class="bolgeler__description">
+                    Şişli Boyacı, Şişli Boya Badana Ustası Vedat Usta 
+                </p>
+
+                <span class="services__no">35</span>
+
+                <div class="home__btns">
+                    <a href="şişli.html" class="btn">Devamı</a>                    
+                  </div>
+            </div>
+
+            <div class="services__item">
+
+                <h3 class="bolgeler__title">Tuzla</h3>
+                <p class="bolgeler__description">
+                    Tuzla Boyacı, Tuzla Boya Badana Ustası Vedat Usta 
+                </p>
+
+                <span class="services__no">36</span>
+
+                <div class="home__btns">
+                    <a href="tuzla.html" class="btn">Devamı</a>                    
+                  </div>
+            </div>
+
+            <div class="services__item">
+
+                <h3 class="bolgeler__title">Ümraniye</h3>
+                <p class="bolgeler__description">
+                    Ümraniye Boyacı, Ümraniye Boya Badana Ustası Vedat Usta 
+                </p>
+
+                <span class="services__no">37</span>
+
+                <div class="home__btns">
+                    <a href="ümraniye.html" class="btn">Devamı</a>                    
+                  </div>
+            </div>
+
+            <div class="services__item">
+
+                <h3 class="bolgeler__title">Üsküdar</h3>
+                <p class="bolgeler__description">
+                    Üsküdar Boyacı, Üsküdar Boya Badana Ustası Vedat Usta 
+                </p>
+
+                <span class="services__no">38</span>
+
+                <div class="home__btns">
+                    <a href="üsküdar.html" class="btn">Devamı</a>                    
+                  </div>
+            </div>
+
+            <div class="services__item">
+
+                <h3 class="bolgeler__title">Zeytinburnu</h3>
+                <p class="bolgeler__description">
+                    Zeytinburnu Boyacı, Zeytinburnu Boya Badana Ustası Vedat Usta 
+                </p>
+
+                <span class="services__no">39</span>
+
+                <div class="home__btns">
+                    <a href="zeytinburnu.html" class="btn">Devamı</a>                    
+                  </div>
+            </div>
+
+
+
+            
+
+        </div>
+
+    </section>
+
+    <!--  MÜŞTERİ YORUMLARI -->
+
+    <section class="testimonials section">
+       <h2 class="section__title title-center" data-title="VEDAT USTA'NIN">
+        MÜŞTERİ YORUMLARI
+       </h2>
+
+       <div class="testimonials__container container grid">
+            <div class="testimonials__item">
+                <p class="testimonials__description">
+                    Boya işlerini yaptırırken çok kararsızdım ama Vedat Usta ile çalıştıktan sonra ne kadar doğru bir seçim yaptığımı fark ettim.
+                     İşlerini son derece profesyonelce yapıyorlar, her ayrıntıya dikkat ediyorlar. Sonuç mükemmel oldu. Kesinlikle tavsiye ederim!
+                </p>
+
+                <div class="testimonials__data">
+                    <img src="../assets/img/erkek avatar.png" alt="" class="testimonials__img">
+
+                    <div>
+                        <h3 class="testimonials__name">Muhammed K.</h3>
+                        <span class="testimonials__identity">Başakşehir,İstanbul</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="testimonials__item">
+                <p class="testimonials__description">
+                    Boya işlerinde hem kaliteli hem de uygun fiyat arıyorsanız Vedat Usta tam size göre! Hem işçilikleri mükemmel, hem de fiyatları son derece makul.
+                     Hem ofisimiz hem de evimiz için çok memnun kaldık. Kesinlikle tercih edilmesi gereken bir ekip.
+                </p>
+
+                <div class="testimonials__data">
+                    <img src="../assets/img/kadın avatar.png" alt="" class="testimonials__img">
+
+                    <div>
+                        <h3 class="testimonials__name">Öykü Y.</h3>
+                        <span class="testimonials__identity">Küçükçekmece,İstanbul</span>
+                    </div>
+                </div>
+
+               
+            </div>
+
+            <div class="testimonials__item">
+                <p class="testimonials__description">
+                    Ofisimizin duvarlarını Vedat Usta’ya emanet ettik ve beklediğimizden çok daha hızlı bir şekilde işi tamamladılar. Üstelik kalite konusunda da hiçbir taviz vermediler.
+                     Gerçekten zamanında ve sorunsuz bir iş çıkardılar. Herkese gönül rahatlığıyla tavsiye ederim.
+                </p>
+
+                <div class="testimonials__data">
+                    <img src="../assets/img/erkek avatar.png" alt="" class="testimonials__img">
+
+                    <div>
+                        <h3 class="testimonials__name">Barış D.</h3>
+                        <span class="testimonials__identity">Avcılar,İstanbul</span>
+                    </div>
+                </div>
+
+               
+            </div>
+ 
+       </div>
+
+
+    </section>
+
+
+
+    <!-- WhatsApp Butonu -->
+    <a href="https://wa.me/905433606106" target="_blank" style="text-decoration: none; position: fixed; bottom: 20px; right: 20px; z-index: 1000;">
+        <button style="background-color: #25D366; color: white; padding: 10px 20px; border: none; border-radius: 50px; font-size: 16px; cursor: pointer;">
+            <i class="fab fa-whatsapp"></i>
+            İletişime Geçin
+        </button>
+    </a>
+
+
+     <!--   CONTACT   -->
+
+     <section class="contact section" id="contact">
+        <h2 class="section__title title-center" data-title="BİZİ ARAYIN">
+         İLETİŞİME GEÇİN
+        </h2>
+
+        <div class="contact__container container grid">
+            <div class="contact__details">
+               <div class="contact__items">
+                   <i class="fa-solid fa-phone contact__icon"></i>
+               
+               <h3 class="contact__title">Fiyat Bilgisi İçin Arayın</h3>
+               <span class="contact__data">0543 360 61 06 veya 0532 491 36 04</span>
+
+               </div>
+
+               <div class="contact__items">
+                <i class="fa-solid fa-envelope contact__icon"></i>
+            
+            <h3 class="contact__title">Yorumlarınız İçin Email Atın</h3>
+            <span class="contact__data">koc.dekorasyon34@gmail.com
+            </span>
+
+            </div>
+
+            <div class="contact__items">
+                <i class="fa-solid fa-location-dot contact__icon"></i>
+            
+            <h3 class="contact__title">Adresimiz</h3>
+            <span class="contact__data">Tahtakale Mahallesi,Abdi İpekçi Caddesi Avcılar/İstanbul.</span>
+
+            </div>
+            </div>
+
+            <form action="" class="contact__form">
+                <div class="form__group">
+                    <div class="form__input">
+                        <input type="text" placeholder="İsim" class="input__control">
+                    </div>
+
+                    <div class="form__input">
+                        <input type="mail" placeholder="Email" class="input__control">
+                    </div>
+                </div>    
+
+                <div class="form__input">
+                   <input type="text" placeholder="Başlık" class="input__control">
+                 </div>
+
+                    
+                <div class="form__input">
+                    <textarea name="" id="" placeholder="Yorum" cols="30" rows='10' class="input__control textarea"></textarea>
+                </div>
+
+                <button class="btn contact__btn">Yorumu Gönder</button>
+                  
+            </form>
+        </div>
+    </section>    
+
+
+</main>
+
+
+    <!-- main bitti -->
+
+    <!-- footer kısmı -->
+
+    <footer class="footer">
+        <div class="footer__container container">
+            <p class="footer__copyright">&copy; 2025 KOÇLAR DEKARASYON.TÜM HAKLAR SAKLIDIR.</p>
+
+            <div class="footer__social-links">
+                <a href="" class="footer__social-link">
+                    <i class="fa-brands fa-x-twitter"></i>
+                </a>
+
+                <a href="" class="footer__social-link">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+
+                <a href="" class="footer__social-link">
+                    <i class="fa-brands fa-square-facebook"></i>
+                </a>
+
+            </div>
+        </div>
+    </footer>
+
+     <!-- javascript kodum -->
+    <script src="../assets/menü.js"></script>
+</body>
+
+</html>
