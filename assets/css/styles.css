@@ -240,7 +240,7 @@ input[type="checkbox"]{
     width:30px;
     border-radius: 50%;
 }
-
+/*
 .color-1{
     background-color:hsl(252,35%,51%);
 }
@@ -281,6 +281,7 @@ input[type="checkbox"]{
 .color-10{
     background-color:hsl(309, 100%, 50%);
 }
+    */
 
 
 #color-1:checked ~ * {
@@ -1173,7 +1174,7 @@ align-items:
 .home__titlee {
     font-size: var(--big-font-size);
     line-height: 1.4;
-    color: var(--first-color-light);
+    color: var(--first-color-dark);
     margin-bottom: 20px;
     margin-top: 20px;
     padding-top: 100px;
