@@ -1,0 +1,33 @@
+User-agent: *
+Disallow: /admin/
+Disallow: /wp-admin/
+Disallow: /wp-login.php
+Disallow: /search/
+Disallow: /?s=
+Disallow: /cart/
+Disallow: /checkout/
+Disallow: /my-account/
+Disallow: /private/
+Disallow: /tmp/
+Disallow: /bakim-modu/
+
+Allow: /wp-content/uploads/
+Allow: /css/
+Allow: /js/
+
+# Googlebot için özel izinler
+User-agent: Googlebot
+Allow: /wp-includes/js/
+Allow: /wp-includes/css/
+
+# GPTBot ve ChatGPT'yi engelle
+User-agent: GPTBot
+User-agent: ChatGPT-User
+Disallow: /
+
+# Googlebot-Image (Görseller için izin)
+User-agent: Googlebot-Image
+Allow: /uploads/
+Disallow: /assets/images/logo.png
+
+Sitemap: https://koclarboya.com/sitemap.xml
