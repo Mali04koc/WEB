@@ -1079,7 +1079,49 @@ align-items:
         background-color:var(--first-color-light);
     }
 
+    .home__img-wrapper {
+        margin-inline: auto; /* Yan boşlukları sıfırla */
+        width: 85%; /* Genişliği daralt */
+        max-width: 500px; /* Maksimum genişlik koy */
+    }
 
+    .home__img-wrapper::before,
+    .home__img-wrapper::after {
+        animation-duration: 6s; /* Animasyonları hızlandır */
+    }
+
+    .home__img {
+        width: 100%; /* Resmi kapsayıcıya sığdır */
+    }
+
+
+    .work__img {
+        width: 100%; /* Kapsayıcı genişliğine uyum sağlar */
+        max-width: 400px; /* Maksimum genişlik */
+        height: 300px; /* Yükseklik azaltıldı */
+    }
+
+    .work__title {
+        font-size: calc(var(--h3-font-size) * 0.9); /* %10 küçültme*/
+    }
+
+    .work__description {
+        font-size: calc(var(--large-font-size) * 0.85);
+    }
+
+
+    .work__card:active .work__details,
+    .work__card:focus .work__details,
+    .work__card:focus-visible .work__details { /* Klavye kullanıcıları için */
+        opacity: 1;
+    }
+    
+    .work__card:active .work__title,
+    .work__card:active .work__description,
+    .work__card:focus .work__title,
+    .work__card:focus .work__description {
+        transform: translateY(0);
+    }
 }
 
 @media only screen and (max-width: 480px) {
@@ -1164,6 +1206,52 @@ align-items:
 
     .nav__link:hover {
         background-color:var(--first-color-light);
+    }
+
+    .home__img-wrapper {
+        width: 90%; /* Daha dar alan */
+        max-width: 300px; /* Küçük ekranlar için maksimum genişlik */
+        margin-block: 1rem; /* Üst/alt boşluk ekle */
+    }
+
+    .home__img-wrapper::before,
+    .home__img-wrapper::after,
+    .home__img {
+        animation-duration: 4s; /* Animasyonları 2x hızlandır */
+    }
+
+    /* Erişilebilirlik: Animasyonu kapatma seçeneği */
+    @media (prefers-reduced-motion: reduce) {
+        .home__img-wrapper::before,
+        .home__img-wrapper::after,
+        .home__img {
+            animation: none !important;
+        }
+    }
+
+    .work__img {
+        max-width: 100%; /* Tam genişlik */
+        height: 250px; /* Daha küçük yükseklik */
+    }
+
+    .work__details {
+        padding: 0.5rem; /* Küçük ekranlarda iç boşluk */
+    }
+
+    .work__title {
+        font-size: calc(var(--h3-font-size) * 0.8); /* %20 küçültme */
+        transform: translateY(1rem); /* Daha az kaydırma */
+    }
+
+    .work__description {
+        font-size: calc(var(--large-font-size) * 0.75);
+        transform: translateY(0.8rem);
+    }
+
+    /* Dokunmatik etkileşim için optimize */
+    .work__card:active .work__details,
+    .work__card:focus .work__details {
+        opacity: 1;
     }
 
 }
